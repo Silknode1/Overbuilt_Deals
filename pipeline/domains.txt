@@ -80,3 +80,42 @@ shop.boox.com|BOOX|tech|0.6
 www.daylightcomputer.com|Daylight|tech|0.6
 www.framework.com|x|x|0
 frame.work|x|x|0
+www.cutleryandmore.com|Cutlery & More|edc|0.4
+prometheusdesignwerx.com|Prometheus Design Werx|tactical|0.7
+www.civivi.com|CIVIVI|edc|0.8
+www.kizerknives.com|Kizer|edc|0.8
+www.maxpedition.com|Maxpedition|tactical|0.7
+www.gerbergear.com|Gerber|edc|0.6
+trueutility.com|True Utility|edc|0.6
+www.wubenlight.com|Wuben|edc|0.6
+www.vosteed.com|Vosteed|edc|0.8
+ontarioknife.com|Ontario Knife|edc|0.5
+www.chrisreeve.com|Chris Reeve Knives|edc|0.9
+www.realsteelknives.com|Real Steel|edc|0.7
+www.zippo.com|Zippo|edc|0.5
+opinel-usa.com|Opinel|edc|0.6
+www.damascus-knife.com|Damascus Knife|edc|0.7
+www.dalstrong.com|Dalstrong|home|0.4
+www.blackdiamondequipment.com|Black Diamond|camping|0.6
+nemoequipment.com|NEMO|camping|0.8
+www.helinox.com|Helinox|camping|0.8
+snowpeak.com|Snow Peak|camping|0.8
+hyperlitemountaingear.com|Hyperlite Mountain Gear|camping|0.8
+www.gossamergear.com|Gossamer Gear|camping|0.7
+zpacks.com|Zpacks|camping|0.7
+garagegrowngear.com|Garage Grown Gear|camping|0.8
+seatosummit.com|Sea to Summit|camping|0.6
+www.goalzero.com|Goal Zero|camping|0.6
+www.bioliteenergy.com|BioLite|camping|0.7
+www.vargooutdoors.com|Vargo|camping|0.8
+toaksoutdoor.com|TOAKS|camping|0.7
+orukayak.com|Oru Kayak|camping|0.6
+rumpl.com|Rumpl|camping|0.6
+www.bigagnes.com|Big Agnes|camping|0.5
+www.kelty.com|Kelty|camping|0.4
+www.thermarest.com|Therm-a-Rest|camping|0.5
+www.kidrobot.com|Kidrobot|quirky|0.8
+www.super7.com|Super7|quirky|0.9
+mondoshop.com|Mondo|quirky|0.8
+shop.pinkfloyd.com|Pink Floyd Official|quirky|1
+store.rhino.com|Rhino Records|quirky|0.7

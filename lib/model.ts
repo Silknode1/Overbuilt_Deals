@@ -5,9 +5,9 @@
 export type Deal = {
   id: string; title: string; brand: string; store: string; domain: string; url: string; cat: string;
   feats?: string[]; model?: string; cond?: "new" | "used"; price?: number; ref?: number; variant?: string;
-  src: "shopify" | "slickdeals" | "marketplace" | "announcement"; note?: string; posted?: string;
+  src: "shopify" | "slickdeals" | "marketplace" | "announcement" | "search"; note?: string; posted?: string;
   claimed?: number; hist?: { low: number; date?: string; n?: number }; elsewhere?: { price: number; store: string };
-  real: number; verdict: string; conf: string; p_drop: number; ends?: string; buy: string; t0: number; img?: string;
+  real: number; verdict: string; conf: string; p_drop: number; ends?: string; buy: string; t0: number; img?: string; full?: boolean;
 };
 export type Prior = {
   bias: number; cat: Record<string, number>; feat: Record<string, number>; brand: Record<string, number>;
@@ -28,6 +28,7 @@ export type State = {
 export const CATS: Record<string, string> = {
   audio: "Hi-fi audio", edc: "EDC", bags: "Backpacks", luggage: "Luggage", tactical: "Tactical",
   gadgets: "Gadgets", health: "Health hardware", charging: "Charging", home: "Coffee & home", apparel: "Apparel",
+  camping: "Camping & outdoors", quirky: "Retro & collectibles",
 };
 export const REASONS: [Reason, string][] = [
   ["item", "Don't want this kind of thing"], ["price", "Price too high"], ["style", "Not my style"],
@@ -126,7 +127,7 @@ export class Model {
 
   /** Calibration deck: stratified by category, strongest picks plus one mid-ranked contrast per category. */
   deck(items: Deal[]): Deal[] {
-    const per: Record<string, number> = { audio: 7, edc: 5, bags: 5, tactical: 4, gadgets: 4, health: 4, luggage: 3, charging: 2, apparel: 1, home: 1 };
+    const per: Record<string, number> = { audio: 7, edc: 5, bags: 5, tactical: 4, gadgets: 4, health: 4, luggage: 3, charging: 2, apparel: 1, home: 1, camping: 4, quirky: 3 };
     const out: Deal[] = [];
     for (const [c, n] of Object.entries(per)) {
       const pool = items.filter((d) => d.cat === c && d.price != null && !this.s.calDone.includes(d.id))

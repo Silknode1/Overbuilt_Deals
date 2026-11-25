@@ -34,13 +34,13 @@ button:focus-visible,input:focus-visible,select:focus-visible,a:focus-visible{ou
 .tag{background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:20px;display:grid;gap:12px;position:relative;overflow:hidden}
 .tag .hole{position:absolute;top:16px;right:16px;width:18px;height:18px;border-radius:50%;border:3px solid var(--al);background:var(--bg)}
 .big .title{font:700 clamp(22px,2.6vw,30px)/1.1 var(--f-cond)}
-.big .thumb{height:220px}
+.big .thumb{height:260px}
 .k{font-size:13px;color:var(--mute)}
-.thumb{background:light-dark(#f5f5f2,#24282d);border-radius:10px;display:grid;place-items:center;height:150px;overflow:hidden}
+.thumb{background:#fff;border:1px solid var(--line);border-radius:10px;display:grid;place-items:center;height:190px;overflow:hidden;padding:10px}
 .thumb img{max-width:100%;max-height:100%;object-fit:contain;mix-blend-mode:multiply}
-:root[data-theme=dark] .thumb img{mix-blend-mode:normal}
-@media (prefers-color-scheme:dark){:root:not([data-theme=light]) .thumb img{mix-blend-mode:normal}}
+.thumb.ph{background:light-dark(#f5f5f2,#24282d);flex-direction:column;gap:6px}
 .thumb svg{width:56px;height:56px;color:var(--mute)}
+.thumb .ph-l{font-size:12px;color:var(--mute);letter-spacing:.04em;text-transform:uppercase}
 .gauge{position:relative;height:34px;margin:6px 0 2px}
 .gauge .rail{position:absolute;left:0;right:0;top:14px;height:6px;border-radius:3px;background:linear-gradient(90deg,var(--good),var(--warn) 55%,var(--bad))}
 .gauge .m{position:absolute;top:6px;width:2px;height:22px;background:var(--ink)}
@@ -79,7 +79,7 @@ table{width:100%;border-collapse:collapse;font-size:14px}th,td{text-align:left;p
 .empty{padding:40px;text-align:center;color:var(--mute);border:1px dashed var(--line);border-radius:12px}
 footer{color:var(--mute);font-size:13px}
 @media(max-width:860px){.hero,.cal{grid-template-columns:minmax(0,1fr)}}
-@media(max-width:600px){.big .thumb{height:170px}.stats{gap:14px}nav{flex-wrap:nowrap;overflow-x:auto;width:100%}nav button{padding:0 10px;flex:none}}
+@media(max-width:600px){.big .thumb{height:210px}.stats{gap:14px}nav{flex-wrap:nowrap;overflow-x:auto;width:100%}nav button{padding:0 10px;flex:none}}
 .lows{margin-top:26px;display:grid;gap:2px}.lows a{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:12px;padding:10px 0;border-top:1px solid var(--line);text-decoration:none}.lows a:hover .t{color:var(--accink)}
 .calact .btn{min-width:120px}
 @media(prefers-reduced-motion:no-preference){.gauge .m.now{transition:left .5s cubic-bezier(.2,.8,.2,1)}}
