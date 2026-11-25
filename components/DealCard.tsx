@@ -7,7 +7,7 @@ const GLYPH: Record<string, string> = {
   bags: "M6 10a3 3 0 0 1 3-3h6a3 3 0 0 1 3 3v10H6zM9 7V5h6v2M9 13h6", luggage: "M7 6h10v13H7zM10 6V4h4v2",
   tactical: "M12 3l7 3v6c0 4-3 7-7 9-4-2-7-5-7-9V6z", gadgets: "M5 4h14v16H5zM9 17h6",
   health: "M3 12h4l2-4 3 8 2-4h7", charging: "M13 3L6 13h5l-1 8 7-10h-5z",
-  camping: "M3 19L12 5l9 14zM12 5v14M9 19l3-6 3 6", quirky: "M12 3l2.6 5.6 6.1.7-4.5 4.2 1.2 6L12 16.5 6.6 19.5l1.2-6L3.3 9.3l6.1-.7z",
+  camping: "M3 19L12 5l9 14zM12 5v14M9 19l3-6 3 6", floyd: "M12 4l8 14H4zM3 13h9M12 12l9-3M12 13l9 1M12 14l9 5", brick: "M5 10h14v9H5zM8 10V7h3v3M13 10V7h3v3", parts: "M7 7h10v10H7zM10 4v3M14 4v3M10 17v3M14 17v3M4 10h3M4 14h3M17 10h3M17 14h3",
   home: "M6 9h10v6a4 4 0 0 1-4 4h-2a4 4 0 0 1-4-4zM16 11h2a2 2 0 0 1 0 4h-2", apparel: "M8 4l4 3 4-3 4 4-3 3v9H7v-9L4 8z",
 };
 

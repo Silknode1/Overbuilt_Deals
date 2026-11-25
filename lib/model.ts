@@ -28,7 +28,7 @@ export type State = {
 export const CATS: Record<string, string> = {
   audio: "Hi-fi audio", edc: "EDC", bags: "Backpacks", luggage: "Luggage", tactical: "Tactical",
   gadgets: "Gadgets", health: "Health hardware", charging: "Charging", home: "Coffee & home", apparel: "Apparel",
-  camping: "Camping & outdoors", quirky: "Retro & collectibles",
+  camping: "Camping & outdoors", floyd: "Pink Floyd & memorabilia", brick: "Bricks, resin & collectibles", parts: "Maker parts",
 };
 export const REASONS: [Reason, string][] = [
   ["item", "Don't want this kind of thing"], ["price", "Price too high"], ["style", "Not my style"],
@@ -127,7 +127,7 @@ export class Model {
 
   /** Calibration deck: stratified by category, strongest picks plus one mid-ranked contrast per category. */
   deck(items: Deal[]): Deal[] {
-    const per: Record<string, number> = { audio: 7, edc: 5, bags: 5, tactical: 4, gadgets: 4, health: 4, luggage: 3, charging: 2, apparel: 1, home: 1, camping: 4, quirky: 3 };
+    const per: Record<string, number> = { audio: 7, edc: 5, bags: 5, tactical: 4, gadgets: 4, health: 4, luggage: 3, charging: 2, apparel: 1, home: 1, camping: 4, floyd: 2, brick: 3, parts: 3 };
     const out: Deal[] = [];
     for (const [c, n] of Object.entries(per)) {
       const pool = items.filter((d) => d.cat === c && d.price != null && !this.s.calDone.includes(d.id))

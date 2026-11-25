@@ -114,8 +114,12 @@ rumpl.com|Rumpl|camping|0.6
 www.bigagnes.com|Big Agnes|camping|0.5
 www.kelty.com|Kelty|camping|0.4
 www.thermarest.com|Therm-a-Rest|camping|0.5
-www.kidrobot.com|Kidrobot|quirky|0.8
-www.super7.com|Super7|quirky|0.9
-mondoshop.com|Mondo|quirky|0.8
-shop.pinkfloyd.com|Pink Floyd Official|quirky|1
-store.rhino.com|Rhino Records|quirky|0.7
+www.kidrobot.com|Kidrobot|brick|0.8
+www.super7.com|Super7|brick|0.9
+mondoshop.com|Mondo|brick|0.8
+shop.pinkfloyd.com|Pink Floyd Official|floyd|1
+store.rhino.com|Rhino Records|floyd|0.7
+shop.m5stack.com|M5Stack|parts|0.7
+lilygo.cc|LILYGO|parts|0.7
+sunfounder.com|SunFounder|parts|0.5
+www.pantasy.com|Pantasy|brick|0.5
