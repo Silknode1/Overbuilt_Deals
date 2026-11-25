@@ -1,0 +1,32 @@
+name: Refresh deals
+on:
+  schedule:
+    - cron: "17 */3 * * *"   # every 3h (UTC); GitHub may run it a few minutes late
+  workflow_dispatch: {}
+permissions:
+  contents: write
+concurrency: { group: refresh, cancel-in-progress: false }
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12" }
+      - name: Pull store feeds and Slickdeals
+        run: |
+          python3 pipeline/pull_shopify.py
+          python3 pipeline/pull_sd.py
+      - name: Score deals and append price history
+        run: |
+          python3 pipeline/build.py
+          python3 pipeline/model.py
+      - name: Commit snapshot
+        run: |
+          git config user.name "overbuilt-bot"
+          git config user.email "overbuilt-bot@users.noreply.github.com"
+          git add public/data/deals.json data/history
+          git diff --cached --quiet && echo "no changes" && exit 0
+          git commit -m "data: refresh $(date -u +%Y-%m-%dT%H:%MZ)"
+          git push

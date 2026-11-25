@@ -1,0 +1,82 @@
+nobullproject.com|NOBULL|apparel|1
+thejamesbrand.com|The James Brand|edc|1
+apos.audio|Apos Audio|audio|1
+www.audeze.com|Audeze|audio|1
+us.sennheiser-hearing.com|Sennheiser|audio|1
+fellowproducts.com|Fellow|home|0.5
+headphones.com|Headphones.com|audio|1
+audio46.com|Audio46|audio|1
+sharge.com|Sharge|tech|1
+us.nothing.tech|Nothing|tech|1
+www.peakdesign.com|Peak Design|bags|1
+bellroy.com|Bellroy|edc|0.8
+www.aersf.com|Aer|bags|0.8
+www.tombihn.com|Tom Bihn|bags|0.8
+www.mysteryranch.com|Mystery Ranch|tactical|0.8
+www.goruck.com|GORUCK|tactical|0.8
+www.ablecarry.com|Able Carry|bags|0.8
+www.nomatic.com|Nomatic|bags|0.7
+monos.com|Monos|luggage|0.7
+july.com|July|luggage|0.6
+www.tactileturn.com|Tactile Turn|edc|0.7
+www.bigidea-design.com|Big Idea Design|edc|0.7
+www.knafs.com|Knafs|edc|0.6
+olightstore.com|Olight|edc|0.7
+www.ridge.com|Ridge|edc|0.6
+www.keychron.com|Keychron|tech|0.7
+nuphy.com|NuPhy|tech|0.6
+teenage.engineering|Teenage Engineering|tech|0.8
+www.analogue.co|Analogue|tech|0.6
+www.withings.com|Withings|health|0.8
+www.eightsleep.com|Eight Sleep|health|0.8
+www.ouraring.com|Oura|health|0.8
+www.hyperice.com|Hyperice|health|0.7
+www.therabody.com|Therabody|health|0.6
+www.ugreen.com|UGREEN|tech|0.6
+www.anker.com|Anker|tech|0.6
+www.moondroplab.com|Moondrop|audio|0.6
+hifiman.com|HiFiMan|audio|0.8
+www.drop.com|Drop|audio|0.6
+www.topo-designs.com|Topo Designs|bags|0.6
+www.evergoods.us|EVERGOODS|bags|0.8
+www.chrbinternational.com|x|x|0
+www.vertx.com|Vertx|tactical|0.7
+www.5ive11.com|x|x|0
+www.511tactical.com|5.11 Tactical|tactical|0.7
+www.triplaurus.com|x|x|0
+www.magpul.com|Magpul|tactical|0.6
+www.benchmade.com|Benchmade|edc|0.7
+www.spyderco.com|x|x|0
+www.leatherman.com|Leatherman|edc|0.7
+www.orbitkey.com|Orbitkey|edc|0.6
+www.nitecorestore.com|Nitecore|edc|0.7
+www.fenixlighting.com|Fenix|edc|0.6
+www.arcpack.com|x|x|0
+www.carryology.com|x|x|0
+www.fiio.com|x|x|0
+eu.qudelix.com|x|x|0
+www.ugreen.com|x|x|0
+www.cotopaxi.com|Cotopaxi|bags|0.5
+www.patagonia.com|x|x|0
+www.arcteryx.com|x|x|0
+www.wandrd.com|WANDRD|bags|0.7
+www.bellroy.com|x|x|0
+www.dangerlabs.com|x|x|0
+www.tealtechnologies.com|x|x|0
+www.focal.com|x|x|0
+www.schiit.com|Schiit|audio|0.8
+www.ifi-audio.com|x|x|0
+www.campfireaudio.com|Campfire Audio|audio|0.7
+www.64audio.com|64 Audio|audio|0.6
+www.kaweco.com|x|x|0
+www.everydaycarry.com|x|x|0
+www.ultrahuman.com|Ultrahuman|health|0.7
+www.whoop.com|x|x|0
+www.dji.com|x|x|0
+www.insta360.com|Insta360|tech|0.6
+www.rabbit.tech|x|x|0
+www.boox.com|x|x|0
+shop.boox.com|BOOX|tech|0.6
+www.daylightcomputer.com|Daylight|tech|0.6
+www.framework.com|x|x|0
+frame.work|x|x|0
